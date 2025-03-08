@@ -1,0 +1,109 @@
+# -------------------
+# 🔹 Unity-Specific Files
+# -------------------
+/[Ll]ibrary/           # Unity library (DO NOT COMMIT - auto-generated)
+Temp/                  # Temporary files
+Logs/                  # Unity logs
+/UserSettings/         # User-specific settings (exclude)
+MemoryCaptures/        # Memory capture files
+
+# -------------------
+# 🔹 Build and Compiled Files
+# -------------------
+/[Bb]uilds/            # Exclude all builds
+/[Bb]uild/             # Alternative build directory
+/[Oo]bj/               # Compiled object files
+/[Bb]in/               # Binary files
+*.sln                  # Solution files (not needed in Git)
+*.csproj               # C# project files
+*.unityproj            # Old Unity project files
+
+# -------------------
+# 🔹 Model, Texture, and Skybox Files (Exclude Large Assets)
+# -------------------
+/Assets/**/*.fbx       # 3D models (FBX files)
+/Assets/**/*.obj       # 3D models (OBJ files)
+/Assets/**/*.dae       # 3D models (DAE files)
+/Assets/**/*.blend     # Blender files
+/Assets/**/*.max       # 3ds Max files
+/Assets/**/*.ma        # Maya files
+/Assets/**/*.mb        # Maya Binary files
+/Assets/**/*.c4d       # Cinema 4D files
+/Assets/**/*.tga       # Large texture files (TGA)
+/Assets/**/*.png       # PNG textures
+/Assets/**/*.jpg       # JPG textures
+/Assets/**/*.jpeg      # JPEG textures
+/Assets/**/*.tif       # TIFF textures
+/Assets/**/*.tiff      # TIFF textures
+/Assets/**/*.exr       # HDR textures (EXR, used in Skyboxes)
+/Assets/**/*.hdr       # HDR Skybox files
+/Assets/**/*.psd       # Photoshop files (PSDs, heavy assets)
+/Assets/**/*.xcf       # GIMP files
+/Assets/**/*.svg       # Vector graphics
+
+# -------------------
+# 🔹 Shader Graphs & Visual Effects Graphs
+# -------------------
+/Assets/**/*.shadergraph   # Shader Graph files
+/Assets/**/*.vfxgraph      # VFX Graph files
+/Assets/**/*.shadercache   # Shader Cache files
+
+# -------------------
+# 🔹 Lightmaps, Probes, and Baked Data (Large Files)
+# -------------------
+/Assets/**/Lightmap-*.png
+/Assets/**/ReflectionProbe-*.exr
+/Assets/**/LightingData.asset
+/Assets/**/GI/             # Global Illumination data
+/Assets/**/Occlusion/      # Occlusion culling data
+
+# -------------------
+# 🔹 HDRP-Specific Files
+# -------------------
+/Assets/HDRPConfig.asset   # HDRP Configuration file (auto-generated)
+/Assets/**/Skyboxes/       # Skybox textures
+
+# -------------------
+# 🔹 Audio & Video Files (Large Files)
+/Assets/**/*.wav       # WAV audio files
+/Assets/**/*.mp3       # MP3 audio files
+/Assets/**/*.ogg       # OGG audio files
+/Assets/**/*.flac      # FLAC audio files
+/Assets/**/*.mp4       # MP4 video files
+/Assets/**/*.avi       # AVI video files
+/Assets/**/*.mov       # MOV video files
+/Assets/**/*.mkv       # MKV video files
+
+# -------------------
+# 🔹 Asset Store & External Packages (Exclude)
+# -------------------
+/Assets/AssetStoreTools/   # Unity Asset Store Tools
+/Assets/Plugins/           # Plugin files (optional, unless necessary)
+/Packages/                 # Unity Package Cache
+
+# -------------------
+# 🔹 Logs & Crash Reports
+# -------------------
+*.log                     # Log files
+*.dmp                     # Crash dumps
+*.stacktrace              # Stack trace files
+/CrashReport/             # Unity crash reports
+/UnityLockfile            # Prevent lock issues
+
+# -------------------
+# 🔹 Ignore Personal User Settings
+# -------------------
+/.vscode/                 # VS Code settings
+/.idea/                   # JetBrains Rider settings
+/.Rider/                  # JetBrains Rider settings
+/Logs/                    # Unity logs
+/Temp/                    # Unity temp files
+*.swp                     # Swap files
+*.bak                     # Backup files
+
+# -------------------
+# 🔹 Ignore Git-related Files
+# -------------------
+.DS_Store                 # macOS Finder metadata
+Thumbs.db                 # Windows thumbnail cache
+*.~lock                   # File locks
